@@ -6,8 +6,9 @@ import {
   Link
 } from "react-router-dom";
 
-import {Homepage} from 'pages/Homepage.js'
 import {NavBar} from 'pages/NavBar.js'
+import {Homepage} from 'pages/Homepage.js'
+import {Footer} from 'pages/Footer.js'
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
     <div>
       <NavBar />
       <Homepage />
+      <Footer />
     </div>
   );
 }
